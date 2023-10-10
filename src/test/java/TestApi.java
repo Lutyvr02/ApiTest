@@ -6,7 +6,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 public class TestApi {
-   /* @Test
+    @Test
     public void createUpdateReadDeleteProject() {
         JSONObject bodyProject = new JSONObject();
         bodyProject.put("Content", "EynarJSON");
@@ -90,7 +90,7 @@ public class TestApi {
                 .body("Icon", equalTo(2));
 
 
-    }/***************************************************************************************/
+    }
 
     @Test
     public void createUpdateReadDeleteItem() {
